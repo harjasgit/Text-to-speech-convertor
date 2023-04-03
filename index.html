@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <h1>Text-to-Speech Website</h1>
+    <textarea id="text-input"></textarea>
+    <br><br>
+    <label for="voice-select">Voice:</label>
+    <select id="voice-select">
+        <!-- <option value="num1">Voice no. 1</option>
+        <option value="num2">Voice no. 2</option>
+        <option value="num3">Voice no. 3</option> -->
+    </select>
+    <br><br>
+    <div class="rangecontainer">
+        <label>Pitch:</label>
+        <input type="range" min="0" max="2" step="0.1" value="1" id="pitch-range" />
+    </div>
+    <br><br>
+    <div class="rangecontainer">
+        <label>Rate:</label>
+        <input type="range" min="0" max="2" step="0.1" value="1" id="rate-range" />
+    </div>
+    <br><br>
+    <button id="speak-button">Speak</button>
+</body>
+
+
+<script src="./script.js">
+  
+</script>
+
+</html>
